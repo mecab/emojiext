@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Emoji Extension",
+    "description": "emoji pallette",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": ["http://*/*", "https://*/*"],
+            "css": ["style.css"],
+            "js": ["emojiData.js", "lib/linq.min.js", "lib/jquery.min.js", "main.js"]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+ul.emojiext {
+    position: absolute;
+    width: 300px;
+    background: white;
+    border: 2px solid gray;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.emojiext li {
+    color: #222222;
+    margin: 0;
+    padding: 0;
+}
+
+ul.emojiext li.selected {
+    background-color: rgba(200, 200, 255, 0.7);
+}
